@@ -1,0 +1,63 @@
+# Compiled Java bytecode
+*.class
+
+# Log files
+*.log
+
+# IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+*.settings/
+*.factorypath
+/.metadata/
+/.vscode/
+
+# Build directories
+/target/
+/build/
+/.gradle/
+/.mvn/
+
+# Compiled binary files
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Dependency directories
+lib/
+libs/
+
+# Application properties
+/application.properties
+/application.yml
+
+# IntelliJ IDEA
+*.ipr
+*.iws
+*.iml
+.idea/
+.idea_modules/
+
+# Eclipse
+.classpath
+.project
+.settings/
+*.launch
+
+# Gradle wrapper
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Maven wrapper
+mvnw
+mvnw.cmd
+.mvn/
+
+# Spring Boot generated files
+spring-boot-starter-parent.iml
