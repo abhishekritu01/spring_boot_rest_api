@@ -1,7 +1,12 @@
 package com.spring.coursebackend.entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Course {
 
+    @Id
     private Long id;
     private String title;
     private String description;
@@ -30,7 +35,6 @@ public class Course {
     public void setDescription(String description) {
         this.description = description;
     }
-
 
     // constructor
     public Course(Long id, String title, String description) {
