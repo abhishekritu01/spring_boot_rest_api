@@ -33,6 +33,7 @@ public class MyController {
         return this.courseService.addCourse(course);
     }
 
+
     @PutMapping("/api/v1/course/{courseId}")
     public Course updateCourse(@RequestBody Course course, @PathVariable String courseId){
         return this.courseService.updateCourse(course, Long.parseLong(courseId));
