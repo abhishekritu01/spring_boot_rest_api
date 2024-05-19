@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RestController
 public class MyController {
 
-    @Autowired
+    @Autowired         // means we are injecting the dependency of CourseService
     private CourseService courseService;
 
     @GetMapping("/api/v1/course")

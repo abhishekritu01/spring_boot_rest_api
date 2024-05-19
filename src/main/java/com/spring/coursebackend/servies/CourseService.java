@@ -2,7 +2,10 @@ package com.spring.coursebackend.servies;
 
 
 import com.spring.coursebackend.entity.Course;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
+
 
 public interface CourseService {
     public List<Course> getCourses();

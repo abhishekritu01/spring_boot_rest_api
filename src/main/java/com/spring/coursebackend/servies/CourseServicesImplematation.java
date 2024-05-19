@@ -83,7 +83,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CourseServicesImplematation implements CourseService {
 
-    @Autowired
+    @Autowired // means we are injecting the dependency of CourseDao
     private CourseDao courseDao;
 
 
@@ -102,14 +102,12 @@ public class CourseServicesImplematation implements CourseService {
         courseDao.save(course);
         return course;
     }
-
     @Override
     public Course updateCourse(Course course, long courseId) {
         course.setId(courseId);
         courseDao.save(course);
         return course;
     }
-
     @Override
     public void deleteCourse(long courseId) {
         Course entity = courseDao.getById(courseId);
