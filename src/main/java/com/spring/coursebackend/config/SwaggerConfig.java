@@ -65,6 +65,8 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class SwaggerConfig {
+
+// -----------------------------------   https://springdoc.org/index.html#demos ------------------------------
     // This method is not needed if the OpenAPIDefinition annotation is correctly used.
     // Uncomment and adjust if additional custom OpenAPI configurations are required.
     // @Bean
